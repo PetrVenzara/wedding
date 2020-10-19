@@ -1,25 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
 body{
-    font-family: 'Cormorant Garamond', serif,'Poppins', sans-serif;
+    font-family: 'Cormorant Garamond', 'Petit Formal Script', serif, cursive, 'Poppins', sans-serif;
 }
 h1{
     color: #49618d;
     text-align: center;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 35px;
 }
 h2{
+    color: #49618d; 
+    text-align: center;
+    font-family: 'Petit Formal Script';
+}
+.introItem h2{
     color: #f1ccc2;
-    text-align: center;    
+    text-align: center;
 }
 h3{
     color: #bfc9d7;
 }
 p{
-    font-style: italic;
-    font-size: small;
-    text-align: center;
+    font-size: 18px;
+    text-align: justify;
+    justify-content: center;
+}
+a{
+    color: #49618d;
+}
+a:hover{
+    color: #f1ccc2;
 }
 section#intro{
     /* background-image: url(); */
@@ -30,7 +42,7 @@ section#intro{
     width: 200px;
     height: 150px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -38,12 +50,51 @@ section#intro{
 .introItem{
     height: 50px;
     width: 200px;
+    align-content: center;
+    justify-content: center;
 }
 table td{
     padding: 0px 5px 0px 5px;
 }
 section#info{
+    background-color: #f2f8ff;
+}
+.infoIntro{
+    width: 750px;
+    margin: auto;
+}
+.infoIntroContainer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.infoIntroItem{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #49618d;
+    margin: 10px;
+}
+.infoIntroItemBlue{
+    background-color: #49618d;    
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 10px;
+}
+.infoIntroItemOrange{
+    background-color: #f1ccc2;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 10px;
+}
+.infoIntroItemGray{
     background-color: #bfc9d7;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 10px;
 }
 section#program{
     text-align: center;
@@ -52,8 +103,10 @@ section#program{
     margin: auto;
     max-width: 200px;    
 }
-section#menu{
 
+
+section#menu{
+    background-color: #f2f8ff;
 }
 .menuContainer{
     display: flex;
@@ -75,4 +128,37 @@ section#menu{
     color: white;
     text-align: center;
     justify-content: center;
+}
+section.gifts{
+    text-align: center;
+}
+.giftsIntro{
+    width: 750px;
+    margin: auto;
+}
+section#questions{
+    text-align: center;
+    background-color: #f2f8ff;
+}
+.questionsIntro{
+    text-align: center;
+    width: 750px;
+    margin: auto;
+    margin-top: 10px;
+}
+.questionsForm{
+    width: 750px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.guestionsForm#form{
+    display: flex;
+    flex-direction: row;
+}
+section.place{
+    text-align: center;
+}
+.placeMap{
+
 }
