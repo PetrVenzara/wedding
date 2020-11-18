@@ -16,7 +16,7 @@
                 <h2>31. 7. 2020</h2>
             </div>
             <div class="introItem">
-                <p>Statek Starý Týn</p>
+                <h3>Statek Starý Týn</h3>
             </div>
         </div>
     </section>
@@ -118,18 +118,22 @@
             <div class="menuItem">
                 <h2>Celodenní</h2>
                 <h2>cattering</h2>
-                <img src="fodo-icon.png"/>
+                <img src="food-icon.png"/>
+            </div>
+            <div class="menuItem">
+                <h2>Vynikající</h2>
+                <h2>nápoje</h2>
+                <img src="drink-icon.svg"/>
             </div>
             <div class="menuItem">
                 <h2>Relax</h2>
                 <h2>zóna</h2>
-            </div>
-            <div class="menuItem">
-                <h2>Fotokoutek</h2>
+                <img src="pillow-icon.svg"/>
             </div>
             <div class="menuItem">
                 <h2>Hromada</h2>
                 <h2>zábavy</h2>
+                <img src="fun-icon.png"/>
             </div>
         </div>
 
@@ -139,10 +143,10 @@
         <h1>Svatební dary</h1>
         <div class="giftsIntro">
             <p>
-                Nevyžadujeme, ale rádi uvítáme. Pokud byste si nebyli jisti formou, tak finančním darem určitě nic nezkazíte.
-                Pokud byste si věřili i na dar fyzický, tak prosíme věci/služby, které jsou praktické k využití. Poprosíme se
+                Pokud byste si nebyli jisti formou, tak finančním darem určitě nic nezkazíte.
+                Pokud byste si věřili i na dar v podobě věci/služby, tak prosíme ty, které jsou praktické k využití. Poprosíme se
                 vyhnout věcem u kterých si nejste jisti, že by u nás našly uplatnění. Radši nebudeme mít nic, než něco
-                s čím si nebudeme vědět rady a bude nás to tížit.
+                s čím si nebudeme vědět rady a bude nás to tížit. Děkujeme za pochopení :)
             </p>
         </div>
 
@@ -159,11 +163,11 @@
         </div>
         <div class="questionsForm">
             <form action="mailto:petrvenzara@seznam.cz" method="post" enctype="text/plain" id="form">
-                <input type="text" name="name" placeholder="Jméno"><br>
-                <input type="text" name="email" placeholder="Email"><br>
-                <input type="textarea" name="message" placeholder="Obsah zprávy">
-                <input type="submit" value="Poslat">
-                <input type="reset" value="Smazat">
+                <input type="text" name="name" placeholder="Jméno">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Obsah zprávy" id="message"></textarea>
+                <button type="submit" onclick="alert('Zpráva byla odeslána :)')">ODESLAT</button>
+                <button type="reset">SMAZAT</button>
             </form>
         </div>
     </section>

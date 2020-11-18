@@ -22,10 +22,6 @@ h2{
     font-family: 'Petit Formal Script';
     padding: 15px;
 }
-.introItem h2{
-    color: #f1ccc2;
-    text-align: center;
-}
 h3{
     color: #bfc9d7;
 }
@@ -49,6 +45,7 @@ section#intro{
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     height: 550px;
     padding: 20px;
 }
@@ -64,8 +61,16 @@ section#intro{
 .introItem{
     width: 200px;
 }
-.introItem p{
+.introItem h2{
+    color: #f1ccc2;
     text-align: center;
+}
+.introItem h3{
+    margin-top: 15px;
+    text-align: center;
+    font-style: italic;
+    font-size: 7px;
+    font-weight: 500;
 }
 table td{
     padding: 0px 5px 0px 5px;
@@ -119,8 +124,8 @@ section#info{
 }
 section#program{
     text-align: center;
-    background-image: url('./leaf-icon.png');
-    background-size: 3%;
+    /* background-image: url('./leaf-icon.png'); */
+    /* background-size: 0%; */
     padding: 20px;
 }
 .tableProgram{
@@ -156,8 +161,10 @@ section#menu{
     justify-content: center;
 }
 .menuItem img{
-    max-height: 40px;
-    max-width: 40px;
+    max-height: 45px;
+    max-width: 45px;
+    border-radius: 45px;
+    background-color: #ecedee;
     margin: 10px;
 }
 section#gifts{
@@ -184,14 +191,56 @@ section#questions{
     margin: auto;
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 #form{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
-input[type="submit"]{
+input[type="text"]{
+    width: 40%;
+    margin: 5px auto;
+    padding: 1px;
+    border: 1px ridge;
+    border-radius: 4px;
+    font-family: 'Cormorant Garamond', 'Petit Formal Script', serif, cursive, 'Poppins', sans-serif;
+}
+input[type="email"]{
+    width: 40%;
+    margin: 5px auto;
+    padding: 1px;
+    border: 1px ridge;
+    border-radius: 4px;
+    font-family: 'Cormorant Garamond', 'Petit Formal Script', serif, cursive, 'Poppins', sans-serif;
+}
+form > textarea {
+    width: 40%;
+    margin: 5px auto;
+    /* margin-bottom: 10px; */
+    padding: 1px;
+    border: 1px ridge;
+    border-radius: 4px;
+    height: 100px;
+    font-family: 'Cormorant Garamond', 'Petit Formal Script', serif, cursive, 'Poppins', sans-serif;
+}
+button{
+    width: 15%;
+    height: 20px;
+    margin: 3px auto;
+    border: 1px ridge;
+    border-radius: 4px;
+    background-color: #bfc9d7;
+    transition-duration: 0.5s;
+    font-family: 'Cormorant Garamond', 'Petit Formal Script', serif, cursive, 'Poppins', sans-serif;
+}
+button:hover{
+    background-color: #49618d;
+    color: #ecedee;
+    /* border-color: #ecedee; */
+}
+/* button[type="submit"] {
     background-color: red;
-}
+} */
 section#place{
     text-align: center;
     padding: 20px;
