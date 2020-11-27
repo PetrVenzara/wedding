@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lancelot&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -23,13 +24,25 @@ h2{
     padding: 15px;
 }
 h3{
-    color: #bfc9d7;
+    color: #49618d; 
+    text-align: center;
+    font-family: 'Clicker Script';
+    font-size: 25px;
+    padding-bottom: 5px;
 }
 p{
     font-size: 18px;
     text-align: justify;
     justify-content: center;
     padding: 5px;
+}
+p.h3{
+    padding: 0px 60px 0px 60px;
+    font-size: 17px;
+}
+p.ps{
+    font-size: 12px;
+    color:#49618d;
 }
 a{
     color: #49618d;
@@ -38,7 +51,7 @@ a:hover{
     color: #f1ccc2;
 }
 section#intro{
-    background-image: url('./intro.jpg');
+    background-image: url('./svatba.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -46,12 +59,12 @@ section#intro{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 550px;
-    padding: 20px;
+    height: 650px;
+    padding: 10px;
 }
 .introContainer{
-    width: 200px;
-    height: 150px;
+    /* width: 400px; */
+    height: 180px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -59,17 +72,33 @@ section#intro{
     justify-content: center;
 }
 .introItem{
-    width: 200px;
+    width: 170px;
+}
+.introItem img{
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 150px;
+    margin: 10px;
+    /* background-color: #f2f8ff; */
+}
+.introItem h1{
+    font-family: 'Lancelot';
+    margin: 10px;
+    padding-bottom: 0px;
 }
 .introItem h2{
+    font-family: 'Clicker Script';
+    font-size: 27px;
     color: #f1ccc2;
-    text-align: center;
+    padding: 0px;
+    margin: 17px;
 }
 .introItem h3{
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    margin: 20px;
+    font-family: 'Clicker Script';
     text-align: center;
-    font-style: italic;
-    font-size: 7px;
+    font-size: 30px;
     font-weight: 500;
 }
 table td{
@@ -88,6 +117,14 @@ section#info{
 .infoIntro{
     width: 750px;
     margin: auto;
+}
+.infoTable{
+    margin: auto;
+    padding-top: 10px;
+    max-width: 200px;    
+}
+.infoTable > table > tbody > tr:nth-child(2n){
+    background-color: #f2f8ff
 }
 .infoIntroContainer{
     display: flex;
@@ -122,14 +159,37 @@ section#info{
     border-radius: 100px;
     margin: 10px;
 }
+.infoPersonContainer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.infoIntroPerson1{
+    background-color: #bfc9d7;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin: 10px;
+}
+.infoIntroPerson2{
+    background-color:#0e2349;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin: 10px;}
 section#program{
     text-align: center;
     /* background-image: url('./leaf-icon.png'); */
     /* background-size: 0%; */
     padding: 20px;
 }
+.program{
+    width: 750px;
+    margin: auto;
+}
 .tableProgram{
     margin: auto;
+    padding-top: 10px;
     max-width: 200px;    
 }
 
@@ -144,7 +204,6 @@ section#menu{
     /* max-width: 500px; */
     justify-content: center;
     flex-wrap: wrap;
-
 }
 .menuItem{
     /* background: #49618d; */
@@ -245,6 +304,19 @@ section#place{
     text-align: center;
     padding: 20px;
 }
-.placeMap{
-
+footer{
+    background-color: #f2f8ff;
+    font-family: 'Clicker Script';
+    font-size: 20px;
+    text-align: center;
+    color: #0e2349;
+}
+footer img{
+    max-width: 60px;
+    margin: 0px -10px -17px -10px;
+}
+.footer{
+    width: 250px;
+    margin: auto;
+    padding: 20px;
 }
