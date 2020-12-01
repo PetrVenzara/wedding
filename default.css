@@ -177,6 +177,13 @@ section#info{
     width: 200px;
     height: 200px;
     border-radius: 200px;
+    margin: 10px;
+}
+.infoIntroPerson3{
+    background-color: #f1ccc2;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
     margin: 10px;}
 section#program{
     text-align: center;
