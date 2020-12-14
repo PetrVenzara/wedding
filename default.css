@@ -165,11 +165,46 @@ section#info{
     align-content: center;
     justify-content: center;
 }
-.infoIntroPerson1{
-    background-color: #bfc9d7;
+.infoIntroAnet{
+    background-color: #f1ccc2;
+    background-image: url('./anet.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 200px;
     height: 200px;
     border-radius: 200px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #f1ccc2;
+    margin: 10px;
+}
+.infoIntroAnicka{
+    background-color: #f1ccc2;
+    background-image: url('./anicka.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #f1ccc2;
+    margin: 10px;
+}
+.infoIntroKuba{
+    background-color: #f1ccc2;
+    background-image: url('./kuba.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #0e2349;
     margin: 10px;
 }
 .infoIntroPerson2{
@@ -179,12 +214,13 @@ section#info{
     border-radius: 200px;
     margin: 10px;
 }
-.infoIntroPerson3{
-    background-color: #f1ccc2;
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
-    margin: 10px;}
+/* .infoIntroPerson3 img{
+    max-height: 190px;
+    max-width: 190px;
+    border-radius: 190px;
+    background-color: #ecedee;
+} */
+
 section#program{
     text-align: center;
     /* background-image: url('./leaf-icon.png'); */
