@@ -139,8 +139,29 @@ section#info{
     background-color: #49618d;
     margin: 10px;
 }
+.infoIntroItemGray{
+    background-color: #bfc9d7;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 10px;
+}
 .infoIntroItemBlue{
     background-color: #49618d;    
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 10px;
+}
+.infoIntroItemPetrol{
+    background-color: #083b4d;    
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 10px;
+}
+.infoIntroItemWine{
+    background-color: #3e0626;    
     width: 100px;
     height: 100px;
     border-radius: 100px;
@@ -153,8 +174,8 @@ section#info{
     border-radius: 100px;
     margin: 10px;
 }
-.infoIntroItemGray{
-    background-color: #bfc9d7;
+.infoIntroItemOrangeSoft{
+    background-color: #e4cfce;
     width: 100px;
     height: 100px;
     border-radius: 100px;
@@ -219,11 +240,17 @@ section#info{
     border-color: #0e2349;
     margin: 10px;
 }
-.infoIntroPerson2{
-    background-color:#0e2349;
+.infoIntroTony{
+    background-image: url('./tony.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 200px;
     height: 200px;
     border-radius: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0e2349;
     margin: 10px;
 }
 /* .infoIntroPerson3 img{
