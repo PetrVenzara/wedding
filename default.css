@@ -403,3 +403,46 @@ footer img{
     margin: auto;
     padding: 20px;
 }
+@media (max-width: 400px) {
+    #intro {
+        height: 250px;
+    }
+
+    header .title {
+        transform: scale(0.5);
+    }
+
+    header h3 {
+        transform: scale(0.6);
+    }
+
+    header .overlay > div {
+        margin: auto 0;
+    }
+
+    #countdown .time {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    #countdown .time > div {
+        margin: 10px;
+    }
+
+    #contact > .center > div {
+        min-width: 280px;
+        height: 460px;
+    }
+
+    .contact {
+        height: 80px;
+        flex-direction: column;
+    }
+
+    .contact a:first-child,
+    .contact a {
+        border-right: 0;
+        margin: 3px 0;
+        padding: 0;
+    }
+}
