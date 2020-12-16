@@ -404,14 +404,44 @@ footer img{
     padding: 20px;
 }
 @media (max-width: 400px) {
-    #intro {
+    section#info{
+        padding: 5px;
+    }
+    section#intro {
         height: 250px;
     }
-
-    header .title {
-        transform: scale(0.5);
+    .introItem{
+        width: auto;
+        /* height: 50px; */
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .introItem h3{
+        margin: auto;
+        font-size: 27px;
+    }
+    .introItem h2{
+        margin: auto;
+        font-size: 27px;
     }
 
+    .infoIntro{
+        width: 360px;
+    }
+    h1{
+        transform: scale(0.6);
+    }
+    h2{
+        transform: scale(0.6);
+    }
+    h3{
+        transform: scale(0.6);
+    }
+    p.h3{
+        padding: 0px 40px 0px 40px;
+    }
+    
     header h3 {
         transform: scale(0.6);
     }
