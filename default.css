@@ -403,7 +403,7 @@ footer img{
     margin: auto;
     padding: 20px;
 }
-@media (max-width: 450px) {
+@media (max-width: 414px) {
     section#info{
         padding: 5px;
     }
@@ -432,7 +432,95 @@ footer img{
     .infoIntroContainer{
         flex-wrap: wrap;
     }
-    h1{
+    /* h1{
+        transform: scale(0.8);
+    }
+    h2{
+        transform: scale(0.8);
+    }
+    h3{
+        transform: scale(0.8);
+    } */
+    p.h3{
+        padding: 0px 40px 0px 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+    @media (max-width: 450px) {
+    section#info{
+        padding: 5px;
+    }
+    section#intro {
+        height: 250px;
+    }
+    .introItem{
+        width: auto;
+        /* height: 50px; */
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .introItem h3{
+        margin: auto;
+        font-size: 27px;
+    }
+    .introItem h2{
+        margin: auto;
+        font-size: 27px;
+    }
+
+    .infoIntro{
+        width: auto;
+    }
+    .infoIntroContainer{
+        flex-wrap: wrap;
+    }
+    .infoIntroAnet{
+        width: 170px;
+        height: 170px;
+        border-radius: 170px;
+        margin: 10px 0px 10px 5px;
+    }
+    .infoIntroBracha{
+        width: 170px;
+        height: 170px;
+        border-radius: 170px;
+        margin: 10px 5px 10px 5px;
+    }
+    .infoIntroAnicka{
+        width: 170px;
+        height: 170px;
+        border-radius: 170px;
+        margin: 10px 0px 10px 5px;
+    }
+    .infoIntroKuba{
+        width: 170px;
+        height: 170px;
+        border-radius: 170px;
+        margin: 10px 5px 10px 5px;
+    }
+    .infoIntroTony{
+        width: 170px;
+        height: 170px;
+        border-radius: 170px;
+    }
+    .program{
+        width: auto;
+    }
+    .giftsIntro{
+        width: auto;
+    }
+    .questionsIntro{
+        width: auto;
+    }
+    .questionsForm{
+        width: auto;
+    }
+    button{
+        width: 30%;
+    }
+    /* h1{
         transform: scale(0.6);
     }
     h2{
@@ -440,10 +528,13 @@ footer img{
     }
     h3{
         transform: scale(0.6);
-    }
+    } */
     p.h3{
         padding: 0px 40px 0px 40px;
     }
+
+
+
 
     header h3 {
         transform: scale(0.6);
