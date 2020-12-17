@@ -410,6 +410,9 @@ footer img{
     section#intro {
         height: 350px;
     }
+    .introContainer{
+        flex-wrap: nowrap;
+    }
     .introItem{
         margin-right: 20px;
         margin-left: 20px;
@@ -423,7 +426,6 @@ footer img{
         margin: auto;
         font-size: 27px;
     }
-
     .infoIntro{
         width: auto;
     }
