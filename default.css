@@ -441,6 +441,9 @@ footer img{
         h1{
             font-size: 25px;
         }
+        h2{
+            font-size: 20px;
+        }
         h3{
             font-size: 30px;
         }
@@ -451,7 +454,7 @@ footer img{
             padding: 5px;
         }
         section#intro {
-            height: 250px;
+            height: 350px;
         }
         .introItem{
             width: auto;
