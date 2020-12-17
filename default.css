@@ -403,7 +403,7 @@ footer img{
     margin: auto;
     padding: 20px;
 }
-@media (max-width: 780px) {
+@media (max-width: 900px) {
     section#info{
         padding: 5px;
     }
@@ -411,6 +411,7 @@ footer img{
         height: 350px;
     }
     .introItem{
+        width: auto;
         margin-right: 20px;
         margin-left: 20px;
         margin-top: 70px;
