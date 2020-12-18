@@ -73,6 +73,7 @@ section#intro{
 }
 .introItem{
     width: 170px;
+    margin: 0px 90px 0px 30px;
 }
 .introItem img{
     max-height: 150px;
